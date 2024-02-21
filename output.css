@@ -568,12 +568,28 @@ video {
   top: -40px;
 }
 
+.bottom-0{
+  bottom: 0px;
+}
+
+.bottom-40{
+  bottom: 10rem;
+}
+
 .bottom-5{
   bottom: 1.25rem;
 }
 
+.bottom-\[15px\]{
+  bottom: 15px;
+}
+
 .left-0{
   left: 0px;
+}
+
+.left-\[800px\]{
+  left: 800px;
 }
 
 .right-5{
@@ -584,20 +600,8 @@ video {
   top: 0px;
 }
 
-.bottom-0{
-  bottom: 0px;
-}
-
-.bottom-40{
-  bottom: 10rem;
-}
-
-.bottom-\[15px\]{
-  bottom: 15px;
-}
-
-.left-\[800px\]{
-  left: 800px;
+.z-10{
+  z-index: 10;
 }
 
 .z-20{
@@ -606,10 +610,6 @@ video {
 
 .z-\[999\]{
   z-index: 999;
-}
-
-.z-10{
-  z-index: 10;
 }
 
 .order-1{
@@ -629,11 +629,6 @@ video {
   margin-right: auto;
 }
 
-.mx-\[630px\]{
-  margin-left: 630px;
-  margin-right: 630px;
-}
-
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -651,12 +646,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-2{
-  margin-top: 0.5rem;
-}
-
 .mr-2{
   margin-right: 0.5rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .block{
@@ -683,6 +678,10 @@ video {
   height: 6rem;
 }
 
+.h-56{
+  height: 14rem;
+}
+
 .h-8{
   height: 2rem;
 }
@@ -693,14 +692,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-52{
-  height: 13rem;
-}
-
-.h-56{
-  height: 14rem;
 }
 
 .w-14{
@@ -715,12 +706,12 @@ video {
   width: 2rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-auto{
   width: auto;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-28{
@@ -735,16 +726,16 @@ video {
   max-width: 45rem;
 }
 
+.max-w-\[50rem\]{
+  max-width: 50rem;
+}
+
 .max-w-\[85rem\]{
   max-width: 85rem;
 }
 
 .max-w-full{
   max-width: 100%;
-}
-
-.max-w-\[50rem\]{
-  max-width: 50rem;
 }
 
 @keyframes fade-down{
@@ -789,10 +780,6 @@ video {
 
 .grid-cols-12{
   grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
-.flex-wrap{
-  flex-wrap: wrap;
 }
 
 .items-center{
@@ -871,12 +858,14 @@ video {
   border-width: 1px;
 }
 
-.border-r{
-  border-right-width: 1px;
+.bg-\[\#207100\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 113 0 / var(--tw-bg-opacity));
 }
 
-.border-dashed{
-  border-style: dashed;
+.bg-\[\#f4f6e8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 246 232 / var(--tw-bg-opacity));
 }
 
 .bg-black{
@@ -909,34 +898,20 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#f4f6e8\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 246 232 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#207100\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(32 113 0 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-30{
   --tw-bg-opacity: 0.3;
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg-section7\.jpg\'\)\]{
-  background-image: url('../assets/images/bg-section7.jpg');
+.bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/bg-section7\.jpg\'\)\]{
+  background-image: url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/bg-section7.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg-section8\.jpg\'\)\]{
-  background-image: url('../assets/images/bg-section8.jpg');
+.bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/bg-section8\.jpg\'\)\]{
+  background-image: url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/bg-section8.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/col-arrow\.png\'\)\]{
-  background-image: url('../assets/images/col-arrow.png');
-}
-
-.bg-\[url\(\'\.\/assets\/images\/bg-section3\.png\'\)\]{
-  background-image: url('./assets/images/bg-section3.png');
+.bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/col-arrow\.png\'\)\]{
+  background-image: url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/col-arrow.png');
 }
 
 .bg-cover{
@@ -964,6 +939,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-20{
+  padding: 5rem;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -976,10 +955,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-20{
-  padding: 5rem;
-}
-
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -990,14 +965,29 @@ video {
   padding-right: 1rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
 
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-3{
@@ -1008,53 +998,6 @@ video {
 .py-60{
   padding-top: 15rem;
   padding-bottom: 15rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.py-24{
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.py-40{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.py-14{
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.py-9{
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.pb-5{
-  padding-bottom: 1.25rem;
-}
-
-.pt-32{
-  padding-top: 8rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .pb-1{
@@ -1075,6 +1018,18 @@ video {
 
 .pb-44{
   padding-bottom: 11rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
 }
 
 .text-center{
@@ -1137,6 +1092,10 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -1145,8 +1104,14 @@ video {
   font-weight: 600;
 }
 
-.font-extrabold{
-  font-weight: 800;
+.text-\[\#ff7800\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 120 0 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-primary{
@@ -1167,22 +1132,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-\[\#ff7800\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 120 0 / var(--tw-text-opacity));
-}
-
-.shadow{
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 html,body{
@@ -1254,11 +1203,6 @@ html,body{
     --tw-bg-opacity: 1;
     background-color: rgb(244 246 232 / var(--tw-bg-opacity));
   }
-
-  .sm\:bg-white{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
 }
 
 @media (min-width: 768px){
@@ -1316,10 +1260,6 @@ html,body{
 
   .md\:h-\[100px\]{
     height: 100px;
-  }
-
-  .md\:h-\[320px\]{
-    height: 320px;
   }
 
   .md\:h-\[350px\]{
@@ -1400,12 +1340,8 @@ html,body{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:bg-\[url\(\'\.\/assets\/bg-section3\.png\'\)\]{
-    background-image: url('./assets/bg-section3.png');
-  }
-
-  .lg\:bg-\[url\(\'\.\/assets\/images\/bg-section3\.png\'\)\]{
-    background-image: url('./assets/images/bg-section3.png');
+  .lg\:bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/bg-section3\.png\'\)\]{
+    background-image: url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/bg-section3.png');
   }
 
   .lg\:px-6{
