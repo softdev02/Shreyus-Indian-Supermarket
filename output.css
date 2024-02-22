@@ -608,10 +608,6 @@ video {
   top: 40%;
 }
 
-.right-10{
-  right: 2.5rem;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -626,10 +622,6 @@ video {
 
 .z-\[999\]{
   z-index: 999;
-}
-
-.z-50{
-  z-index: 50;
 }
 
 .order-1{
@@ -678,14 +670,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
-}
-
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -728,10 +712,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-\[250px\]{
-  height: 250px;
 }
 
 .w-14{
@@ -784,18 +764,6 @@ video {
 
 .max-w-full{
   max-width: 100%;
-}
-
-.max-w-\[90rem\]{
-  max-width: 90rem;
-}
-
-.max-w-\[95rem\]{
-  max-width: 95rem;
-}
-
-.max-w-\[40rem\]{
-  max-width: 40rem;
 }
 
 @keyframes fade-down{
@@ -858,10 +826,6 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
-.flex-col{
-  flex-direction: column;
-}
-
 .items-center{
   align-items: center;
 }
@@ -882,6 +846,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-12{
   gap: 3rem;
 }
@@ -896,10 +864,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
@@ -938,10 +902,6 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded-md{
-  border-radius: 0.375rem;
 }
 
 .rounded-l-full{
@@ -1013,32 +973,16 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-0{
+  --tw-bg-opacity: 0;
+}
+
 .bg-opacity-40{
   --tw-bg-opacity: 0.4;
 }
 
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
-}
-
-.bg-opacity-0{
-  --tw-bg-opacity: 0;
-}
-
-.bg-opacity-10{
-  --tw-bg-opacity: 0.1;
-}
-
-.bg-opacity-20{
-  --tw-bg-opacity: 0.2;
-}
-
-.bg-opacity-15{
-  --tw-bg-opacity: 0.15;
-}
-
-.bg-opacity-5{
-  --tw-bg-opacity: 0.05;
 }
 
 .bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/bg-section7\.jpg\'\)\]{
@@ -1051,10 +995,6 @@ video {
 
 .bg-\[url\(\'https\:\/\/softdev02\.github\.io\/Shreyus-Indian-Supermarket\/assets\/images\/col-arrow\.png\'\)\]{
   background-image: url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/col-arrow.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/images\/bg-section7\.jpg\'\)\]{
-  background-image: url('../assets/images/bg-section7.jpg');
 }
 
 .bg-gradient-to-r{
@@ -1133,6 +1073,16 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1158,16 +1108,6 @@ video {
   padding-bottom: 10rem;
 }
 
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -1190,10 +1130,6 @@ video {
 
 .pt-36{
   padding-top: 9rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -1246,16 +1182,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
 }
 
 .font-bold{
@@ -1493,20 +1419,16 @@ html,body{
     top: -45px;
   }
 
+  .md\:bottom-8{
+    bottom: 2rem;
+  }
+
   .md\:top-2{
     top: 0.5rem;
   }
 
   .md\:top-2\.5{
     top: 0.625rem;
-  }
-
-  .md\:bottom-8{
-    bottom: 2rem;
-  }
-
-  .md\:left-8{
-    left: 2rem;
   }
 
   .md\:order-1{
@@ -1596,14 +1518,14 @@ html,body{
     line-height: 2rem;
   }
 
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:shadow{
@@ -1637,21 +1559,6 @@ html,body{
   .lg\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .lg\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-16{
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .lg\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 }
 
