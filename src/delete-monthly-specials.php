@@ -1,7 +1,7 @@
 <?php
 include '../config/dbconfig.php';
 include './models/users.php';
-require './models/seasonal-deals.php';
+require './models/monthly_specials.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
         try {

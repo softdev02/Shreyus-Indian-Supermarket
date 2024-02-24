@@ -1,6 +1,6 @@
 
 <?php
-include './src/fetch-seasonal-deals.php';
+include './src/fetch-monthly-specials.php';
 $items_per_page = 8;
 $total_items = $totalRecords;
 $total_pages = ceil($total_items / $items_per_page);
@@ -14,7 +14,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
-    <title>Shreyus Indian Supermarket - Seasonal Deals</title>
+    <title>Shreyus Indian Supermarket - Monthly Specials</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
 </head>
@@ -37,7 +37,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
        <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
        <div class=" grid grid-cols-1 mb-14">
            <div class="flex justify-between"> 
-              <h1 class="text-2xl font-bold">Seasonal Deals </h1>
+              <h1 class="text-2xl font-bold">Monthly Specials</h1>
            </div>
         <div>
        

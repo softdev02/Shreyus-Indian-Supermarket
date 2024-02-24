@@ -8,10 +8,10 @@
                  <hr class="pb-4 w-5 text-start">
                 
                  <div class="  text-white"><ul>
-                  <li class="pb-3"><a class="hover:underline" href="">Home</a></li>
-                  <li class="pb-3"><a class="hover:underline" href="">Gallery</a></li>
-                  <li class="pb-3"><a class="hover:underline" href="">Seasonal Deals</a></li>
-                  <li class="pb-3"><a class="hover:underline" href="">Contact us</a></li>
+                  <li class="pb-3"><a class="hover:underline" href="./">Home</a></li>
+                  <li class="pb-3"><a class="hover:underline" href="./gallery">Gallery</a></li>
+                  <li class="pb-3"><a class="hover:underline" href="./monthly-specials">Monthly Specials</a></li>
+                  <li class="pb-3"><a class="hover:underline" href="./index#contact">Contact us</a></li>
                  </ul></div>
   
               </div>
@@ -37,10 +37,10 @@
                   <hr class="pb-4 w-16">
                  
                   <div class="  text-white"><ul>
-                    <li class="pb-3"><a class="hover:underline" href="">Policies</a></li>
-                    <li class="pb-3"><a class="hover:underline" href="">Rate Us</a></li>
-                    <li class="pb-3"><a class="hover:underline" href="">Store locator</a></li>
-                    <li class="pb-3"><a class="hover:underline" href="">Site Map</a></li>
+                    <li class="pb-3"><a class="hover:underline" href="./policies">Policies</a></li>
+                    <li class="pb-3"><a class="hover:underline" target="_blank" href="https://www.google.com/search?q=Shreyus+Indian+Supermarket&rlz=1C1ONGR_enIN1078IN1078&oq=Shreyus+Indian+Supermarket&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg80gEHMjE1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x809ae5844ddd66d9:0xb5f32f208b66d64f,1,,,,">Rate Us</a></li>
+                    <li class="pb-3"><a class="hover:underline" target="_blank" href="https://www.google.com/maps/place/Shreyus+Indian+Supermarket/@38.6712517,-121.1668417,17z/data=!3m1!4b1!4m6!3m5!1s0x809ae5844ddd66d9:0xb5f32f208b66d64f!8m2!3d38.6712517!4d-121.1642668!16s%2Fg%2F11fl288r0w?entry=ttu">Store locator</a></li>
+                    <li class="pb-3"><a class="hover:underline" target="_blank" href="https://www.google.com/maps/place/Shreyus+Indian+Supermarket/@38.6711478,-121.1643778,3a,75y,41.87h,84.19t/data=!3m7!1e1!3m5!1sRQq7tXjGTuQoxRXmqBd6iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DRQq7tXjGTuQoxRXmqBd6iw%26cb_client%3Dsearch.gws-prod.gps%26w%3D211%26h%3D120%26yaw%3D38.56888%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m14!1m7!3m6!1s0x809ae5844ddd66d9:0xb5f32f208b66d64f!2sShreyus+Indian+Supermarket!8m2!3d38.6712517!4d-121.1642668!16s%2Fg%2F11fl288r0w!3m5!1s0x809ae5844ddd66d9:0xb5f32f208b66d64f!8m2!3d38.6712517!4d-121.1642668!16s%2Fg%2F11fl288r0w?entry=ttu">Site Map</a></li>
                    </ul></div>
                   </div>
                </div>
@@ -60,7 +60,7 @@
           
           <div class="relative bottom-0 pt-36 flex justify-center ">
             <h3 class="absolute text-white text-center  bottom-2 2xl:bottom-3  z-10">Copyright © 2024 Shreyus  Supermarket. Developed and designed by <a href="https://digitalizebusinesses.com" target="_blank" class=" text-[#ff7800]">Accentuate Inc</a></h3>
-          <img class="absolute bottom-0 hidden lg:block" src="./assets/images/bg-section4-cow.png"  alt="">
+            <img class="absolute bottom-0 hidden lg:block w-full" src="./assets/images/bg-section4-cow.png"  alt="">
          
         </div>
           
@@ -69,10 +69,10 @@
       
       </footer>
 
-      <a href="./seasonal-deals" class="fixed z-[999] bottom-5 left-5 md:bottom-8  p-2 flex justify-center items-center bg-yellow-500 text-white rounded-full animate-fade-up hover:saturate-50 cursor-pointer ">
+      <a href="./monthly-specials" class="fixed z-[999] bottom-5 left-5 md:bottom-8  p-2 flex justify-center items-center bg-yellow-500 text-white rounded-full animate-fade-up hover:saturate-50 cursor-pointer ">
         <div class="h-24 w-24 md:h-36 md:w-36 flex justify-center items-center bg-secondary text-white rounded-full">
           <div class="max-w-28 w-full mx-auto text-md md:text-2xl flex justify-center items-center text-center font-bold">
-            <h1 class="uppercase">Seasonal Deals</h1>
+            <h1 class="uppercase">Monthly Specials</h1>
           </div>
         </div>
         </a>

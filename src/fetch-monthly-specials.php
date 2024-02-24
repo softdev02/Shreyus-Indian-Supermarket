@@ -4,7 +4,7 @@ include './config/dbconfig.php';
 function fetchAllseasonal_deals($conn, $page, $limit) {
 
     $offset = ($page - 1) * $limit;
-    $sql = "SELECT * FROM seasonal_deals LIMIT $limit OFFSET $offset";
+    $sql = "SELECT * FROM monthly_specials LIMIT $limit OFFSET $offset";
     $result = $conn->query($sql);
     $galleries = array();
     if ($result->num_rows > 0) {
@@ -15,7 +15,7 @@ function fetchAllseasonal_deals($conn, $page, $limit) {
     return $galleries;
 }
 function getTotalRecords($conn) {
-    $sql = "SELECT COUNT(*) as total FROM seasonal_deals";
+    $sql = "SELECT COUNT(*) as total FROM monthly_specials";
     $result = $conn->query($sql);
     $row = $result->fetch_assoc();
     return $row['total'];

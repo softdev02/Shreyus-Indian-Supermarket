@@ -18,7 +18,7 @@ async function deletegallery(id){
 }
 async function deleteeasonaldeals(id){
     if (confirm("Are you sure delete this post?") == true) {
-    const response = await fetch('./src/delete-seasonal-deals.php', {
+    const response = await fetch('./src/delete-monthly-specials.php', {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json'

@@ -32,7 +32,7 @@
            
             <div class='hidden md:flex items-center gap-6 relative top-0  md:top-2.5' id="menu">
              <div class="text-primary font-medium px-10 py-3 md:rounded-b-xl flex items-center md:shadow bg-white">
-                <a href="./index" className="text-lg block font-bold" >Home</a>
+                <a href="./" className="text-lg block font-bold" >Home</a>
              </div>
            
              <div class="text-primary font-medium px-10 py-3 md:rounded-b-xl flex items-center md:shadow bg-white">

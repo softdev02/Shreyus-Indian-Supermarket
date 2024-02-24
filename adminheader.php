@@ -23,7 +23,7 @@
              </div>
            
              <div >
-                <a href="./admin-seasonal-deals" className="text-lg block font-bold" >Seasonal Deals</a>
+                <a href="./admin-monthly-specials" className="text-lg block font-bold" >Monthly Specials</a>
               </div>
               <div >
                 <a href="./src/logout.php" className="text-lg block font-bold" >Logout</a>

@@ -1,7 +1,7 @@
 <?php
 include '../config/dbconfig.php';
 include './models/users.php';
-require './models/seasonal-deals.php';
+require './models/monthly_specials.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
         try {
@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 
                 if (isset($_FILES['image'])) {
                     $uploadedFile = $_FILES['image']['tmp_name'];
-                    $folderName = 'Upload/seasonaldealsimg';
+                    $folderName = 'Upload/monthlyspecialsimg';
                     if (!file_exists($folderName)) {
                         mkdir($folderName, 0777, true);
                     }
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $gallery=new ModelsSeasonaldeals($conn);
                
                 $resdata =$gallery->saveimage($reqdata);
-                header("Location: ../admin-seasonal-deals");
+                header("Location: ../admin-monthly-specials");
             
             
         } catch (Exception $e) {

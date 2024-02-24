@@ -79,11 +79,11 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
             <div class="p-4 md:p-5">
                 <form class="space-y-4" action="./src/gallery_upload.php"  method="post" enctype="multipart/form-data">
                     <div>
-                        <label for="Tattoopic" class="block mb-2 text-sm font-medium text-gray-900 ">Tattoo Image</label>
+                        <label for="Tattoopic" class="block mb-2 text-sm font-medium text-gray-900 ">Image</label>
                         <input type="file"  name="image" id="Tattoopic" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg outline-none block w-full p-2.5" required>
                     </div>
                     <div>
-                        <label for="Tattooname" class="block mb-2 text-sm font-medium text-gray-900 ">Tattoo Name</label>
+                        <label for="Tattooname" class="block mb-2 text-sm font-medium text-gray-900 ">Name</label>
                         <input type="text" name="name" id="Tattooname"  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg outline-none block w-full p-2.5" required>
                     </div>
                  

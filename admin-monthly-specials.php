@@ -19,7 +19,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
     <meta name="robots" content="noindex,nofollow,noarchive" />
-    <title>Shreyus Indian Supermarket - Admin Seasonal Deals</title>
+    <title>Shreyus Indian Supermarket - Admin Monthly Specials</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
 </head>
@@ -30,7 +30,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
        <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
        <div class=" grid grid-cols-1 mb-14">
            <div class="flex justify-between"> 
-              <h1 class="text-2xl font-bold">Seasonal Deals</h1>
+              <h1 class="text-2xl font-bold">Monthly Specials</h1>
              <button type="button" class="py-2 px-6 bg-blue-950 text-white rounded-xl" onclick="openModal()" >Add</button>
            </div>
         <div>
@@ -65,7 +65,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
                 <h3 class="text-xl font-semibold text-gray-900">
-                    Create new seasonal deals  post
+                    Create new monthly specials  post
                 </h3>
                 <button onclick="closeModal()" type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center " data-modal-hide="authentication-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
@@ -76,13 +76,13 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
             </div>
             <!-- Modal body -->
             <div class="p-4 md:p-5">
-                <form class="space-y-4" action="./src/seasonal-deals-upload.php"  method="post" enctype="multipart/form-data">
+                <form class="space-y-4" action="./src/monthly-specials-upload.php"  method="post" enctype="multipart/form-data">
                     <div>
-                        <label for="Tattoopic" class="block mb-2 text-sm font-medium text-gray-900 ">Tattoo Image</label>
+                        <label for="Tattoopic" class="block mb-2 text-sm font-medium text-gray-900 ">Image</label>
                         <input type="file"  name="image" id="Tattoopic" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg outline-none block w-full p-2.5" required>
                     </div>
                     <div>
-                        <label for="Tattooname" class="block mb-2 text-sm font-medium text-gray-900 ">Tattoo Name</label>
+                        <label for="Tattooname" class="block mb-2 text-sm font-medium text-gray-900 ">Name</label>
                         <input type="text" name="name" id="Tattooname"  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg outline-none block w-full p-2.5" required>
                     </div>
                  
