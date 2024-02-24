@@ -13,7 +13,8 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seasonal Deals - Shreyus Indian Supermarket</title>
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
+    <title>Shreyus Indian Supermarket - Seasonal Deals</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
 </head>
@@ -25,7 +26,6 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
         <div class="absolute top-0 left-0 w-full h-full bg-opacity-40 bg-black flex justify-center items-center">
                   <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
                     <div class="flex justify-center items-center ">
-                      <h1 class="text-5xl text-white font-bold 2xl:mt-36 font-Protest">Seasonal  <span class="text-yellow-500">Deals</span></h1>
                      
                     </div>
                  
@@ -37,7 +37,7 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
        <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
        <div class=" grid grid-cols-1 mb-14">
            <div class="flex justify-between"> 
-              <h1 class="text-2xl font-bold">All Seasonal Deals </h1>
+              <h1 class="text-2xl font-bold">Seasonal Deals </h1>
            </div>
         <div>
        

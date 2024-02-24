@@ -39,7 +39,7 @@
                 <a href="./gallery" className="text-lg block font-bold" >Gallery</a>
               </div>
               <div class="text-primary font-medium px-10 py-3 md:rounded-b-xl flex items-center md:shadow bg-white">
-                <a href="./index" className="text-lg block font-bold" >Contact</a>
+                <a href="./index#contact" className="text-lg block font-bold" >Contact</a>
               </div>
         
             </div>

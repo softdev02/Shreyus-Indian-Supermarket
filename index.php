@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Shreyus Indian Supermarket</title>
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
+    <title>Shreyus Indian Supermarket - Home</title>
+    <meta name="keywords" content="Shreyus Indian Supermarket,Indian grocery store,Indian store,Vegeterian geocery store,Indian super market,Indian market store, Indian grocery store folsom, Indian grocery store east bidwell,Kerala grocery store,North indian grocery store.">
+    <meta name="description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.shreyus.com/assets/logo/og_image.jpeg">
+    <meta property="og:title" content="Shreyus Indian Supermarket - Home">
+    <meta property="og:description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
+    <meta property="og:url" content="https://www.shreyus.com">
+    <meta property="og:site" content="Shreyus Indian Supermarket">
+    <meta property="og:site_name" content="Shreyus Indian Supermarket">
+
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
@@ -366,7 +378,7 @@
             </div>
         </section>
         
-        <section>
+        <section id="contact">
           <div class="max-w-full   ">
           <img class=" z-10 " src="./assets/images/Footer.png"  alt="">
           </div>

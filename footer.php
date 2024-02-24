@@ -59,8 +59,7 @@
           </div> 
           
           <div class="relative bottom-0 pt-36 flex justify-center ">
-            <h3 class="absolute text-white text-center  bottom-2 2xl:bottom-3  z-10">Copyright © 2024 Shreyus  Supermarket. Developed and designed by Accentuate Inc
-Visit us at <a href="https://digitalizebusinesses.com" target="_blank" class=" text-[#ff7800]">https://digitalizebusinesses.com</a></h3>
+            <h3 class="absolute text-white text-center  bottom-2 2xl:bottom-3  z-10">Copyright © 2024 Shreyus  Supermarket. Developed and designed by <a href="https://digitalizebusinesses.com" target="_blank" class=" text-[#ff7800]">Accentuate Inc</a></h3>
           <img class="absolute bottom-0 hidden lg:block" src="./assets/images/bg-section4-cow.png"  alt="">
          
         </div>
@@ -70,7 +69,7 @@ Visit us at <a href="https://digitalizebusinesses.com" target="_blank" class=" t
       
       </footer>
 
-      <a href="./seasonal-deals.php" class="fixed z-[999] bottom-5 left-5 md:bottom-8  p-2 flex justify-center items-center bg-yellow-500 text-white rounded-full animate-fade-up hover:saturate-50 cursor-pointer ">
+      <a href="./seasonal-deals" class="fixed z-[999] bottom-5 left-5 md:bottom-8  p-2 flex justify-center items-center bg-yellow-500 text-white rounded-full animate-fade-up hover:saturate-50 cursor-pointer ">
         <div class="h-24 w-24 md:h-36 md:w-36 flex justify-center items-center bg-secondary text-white rounded-full">
           <div class="max-w-28 w-full mx-auto text-md md:text-2xl flex justify-center items-center text-center font-bold">
             <h1 class="uppercase">Seasonal Deals</h1>

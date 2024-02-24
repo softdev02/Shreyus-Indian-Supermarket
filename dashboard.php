@@ -18,8 +18,9 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
     <meta name="robots" content="noindex,nofollow,noarchive" />
-    <title>Admin Dashboard - Shreyus Indian Supermarket</title>
+    <title>Shreyus Indian Supermarket - Admin Dashboard</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
 </head>
