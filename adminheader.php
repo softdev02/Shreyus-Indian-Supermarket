@@ -16,7 +16,7 @@
            
             <div class='hidden md:flex items-center gap-6 ' id="menu">
             <div>
-                <a href="./index" className="text-lg block font-bold" >Home</a>
+                <a href="./" className="text-lg block font-bold" >Home</a>
              </div>
              <div>
                 <a href="./dashboard" className="text-lg block font-bold" >All Gallery</a>

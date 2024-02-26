@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
     <title>Shreyus Indian Supermarket - Home</title>
-    <meta name="keywords" content="Shreyus Indian Supermarket,Indian grocery store,Indian store,Vegeterian geocery store,Indian super market,Indian market store, Indian grocery store folsom, Indian grocery store east bidwell,Kerala grocery store,North indian grocery store.">
+    <meta name="keywords" content="Shreyus Indian Supermarket,Malayali grocery Store, Fiji grocery store, Telegu Grocery Store, Tamil Grocery Store, Kerala Grocery Store,Indian grocery store,Indian store,Vegeterian geocery store,Indian super market,Indian market store, Indian grocery store folsom, Indian grocery store east bidwell,Kerala grocery store,North indian grocery store.">
     <meta name="description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://www.shreyus.com/assets/logo/og_image.jpeg">
+    <meta property="og:image" content="./assets/logo/og_image.jpeg">
     <meta property="og:title" content="Shreyus Indian Supermarket - Home">
     <meta property="og:description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
     <meta property="og:url" content="https://www.shreyus.com">
     <meta property="og:site" content="Shreyus Indian Supermarket">
     <meta property="og:site_name" content="Shreyus Indian Supermarket">
+    <link rel="canonical" href="https://sparkleacademy.net/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:title" content="Shreyus Indian Supermarket - Home">
+    <meta name="twitter:description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
+    <meta name="twitter:image" content="./assets/images/seo/og_image.jpeg">
 
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
@@ -64,7 +70,7 @@
                 </div>
               </div>
              
-              <div class="swiper-slide"><img src="./assets/images/hero/Fresh Veg.jpg" class="h-full w-full object-cover"/>
+              <div class="swiper-slide"><img src="./assets/images/hero/Fresh Veg (1).jpg" class="h-full w-full object-cover"/>
              
                 <div class="absolute top-0 left-0 w-full h-full bg-opacity-40 bg-black flex justify-center items-center">
                   <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
@@ -106,7 +112,7 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide"><img src="./assets/images/hero/Thinks.jpg" class="h-full w-full object-cover"/>
+              <div class="swiper-slide"><img src="./assets/images/hero/Thinks 1 (1).jpg" class="h-full w-full object-cover"/>
                 <div class="absolute top-0 left-0 w-full h-full bg-opacity-40 bg-black flex justify-center items-center">
                   <div class="max-w-[110rem] w-full mx-auto px-4 lg:px-6">
                     <div class="flex justify-center md:justify-start items-center ">
@@ -133,17 +139,17 @@
       <section class="relative overflow-hidden py-20 2xl:py-0">
         <div class="max-w-[85rem] w-full mx-auto  px-4 lg:px-6 ">
            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div class="order-2 md:order-1">
-                <img  src="./assets/images/Veg (1).png" class="hover:scale-105 transition-all duration-[2s]"/>
+              <div class="order-2 md:order-1 flex items-center">
+                <img  src="./assets/images/Mid-Image.png" class="hover:scale-105 transition-all duration-[2s]"/>
               </div>
               <div  class="order-1 md:order-2">
                  <div>
                     <h1 class="text-secondary  mb-5 v font-bold text-2xl">~ About us ~</h1>
                     <h1 class="text-5xl font-bold mb-5">Shreyus Indian Supermarket</h1>
                     <p class="mb-5 text-xl">Shreyus Indian Supermarket is an Indian grocery store located in a quiet, but a convenient place in the Heart of Folsom,CA.</p>
-                  <p class="text-slate-600">Shreyus brings its customers a wide variety of imported Indian goods at an affordable price, making them feel like they are in India, even though they are away from India. We tirelessly work to make sure that all major brands are available, even during this pandemic when food supply is drastically affected.</p>
+                   <p class="text-slate-600 mb-5">Shreyus brings its customers a wide variety of imported Indian goods at an affordable price, making them feel like they are in India, even though they are away from India. We tirelessly work to make sure that all major brands are available, even during this pandemic when food supply is drastically affected.</p>
+                   <p class="text-slate-600">We bring the flavors of India to your plate. Our store offers a wide variety of authentic Indian food items from different regions of the country. Your one-stop shop for all your Indian culinary needs. We take pride in offering a wide range of authentic products. From aromatic spices and flavorful sauces to traditional snacks , we have everything you need to create delicious Indian dishes in your own kitchen. Explore the vibrant flavors of India at Shreyus Indian Grocery Store!</p>
                 </div>
-              </div>
            </div>
         </div>
     </section>
@@ -190,7 +196,7 @@
         
       
     </section>
-        <section class="py-40  relative bg-[url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/bg-section7.jpg')] bg-cover bg-no-repeat overflow-hidden">
+        <section class="py-40  relative  bg-cover bg-no-repeat overflow-hidden" style="background-image: url('./assets/images/bg-section7.jpg');">
             <div class="max-w-[45rem] w-full mx-auto  px-4 lg:px-6  mb-10">
                 <div class="grid grid-cols-1 gap-8">
                 
@@ -293,11 +299,11 @@
                 </div>
              </div>
         </section>
-        <section class="py-20  relative  bg-[url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/bg-section8.jpg')]  bg-no-repeat overflow-hidden">
+        <section class="py-20  relative bg-cover    bg-no-repeat overflow-hidden " style="background-image: url('./assets/images/bg-section8.jpg');">
             <div class="max-w-[85rem] w-full mx-auto  px-4 lg:px-6 ">
                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
               
-                  <div class="order-2 md:order-1 grid grid-cols-1 md:grid-cols-2 gap-6 bg-[url('https://softdev02.github.io/Shreyus-Indian-Supermarket/assets/images/col-arrow.png')]  bg-no-repeat p-10">
+                  <div class="order-2 md:order-1 grid grid-cols-1 md:grid-cols-2 gap-6   bg-no-repeat p-10" style="background-image: url('./assets/images/col-arrow.png');">
                
                     <div class="bg-white  p-5 border rounded-lg group  hover:bg-secondary">
                       <div>
@@ -379,8 +385,8 @@
         </section>
         
         <section id="contact">
-          <div class="max-w-full   ">
-          <img class=" z-10 " src="./assets/images/Footer.png"  alt="">
+          <div class="max-w-full  w-full ">
+          <img class=" z-10 w-full" src="./assets/images/Footer.png"  alt="">
           </div>
       
         </section>

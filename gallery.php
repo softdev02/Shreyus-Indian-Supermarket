@@ -15,6 +15,16 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/logo/favicon.png">
     <title>Shreyus Indian Supermarket - Gallery</title>
+    <meta name="keywords" content="Shreyus Indian Supermarket,Malayali grocery Store, Fiji grocery store, Telegu Grocery Store, Tamil Grocery Store, Kerala Grocery Store,Indian grocery store,Indian store,Vegeterian geocery store,Indian super market,Indian market store, Indian grocery store folsom, Indian grocery store east bidwell,Kerala grocery store,North indian grocery store.">
+    <meta name="description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/logo/og_image.jpeg">
+    <meta property="og:title" content="Shreyus Indian Supermarket - Gallery">
+    <meta property="og:description" content="Discover the Essence of India at Shreyas Indian Grocery Store in Falcon, US! Indulge in the rich flavors of India with our extensive collection of spices, lentils, teas, snacks, and more. From premium Basmati rice to aromatic masalas, we offer authentic ingredients to elevate your culinary experience. Experience, convenience, quality, and affordability all under one roof. Shop now and bring home the taste of India with Shreyas!">
+    <meta property="og:url" content="https://www.shreyus.com/gallery">
+    <meta property="og:site" content="Shreyus Indian Supermarket">
+    <meta property="og:site_name" content="Shreyus Indian Supermarket">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./assets/vendor/@flaticon/flaticon-uicons/css/all/all.css">
 </head>

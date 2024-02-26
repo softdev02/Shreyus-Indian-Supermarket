@@ -1,6 +1,6 @@
 
 <?php
-include './src/fetch-seasonal-deals.php';
+include './src/fetch-monthly-specials.php';
 if (!isset($_SESSION['Username'])) {
     header("Location: index.php");
     exit();
@@ -98,5 +98,5 @@ $paginated_galleries = array_slice($galleries, $offset, $items_per_page);
 </body>
     <script src="./assets/js/menu.js"></script>
     <script src="./assets/js/modal.js"></script>
-    <script src="./assets/js/delete.js"></script>
+    <script src="./assets/js/delete.js?v=1.0"></script>
 </html>
